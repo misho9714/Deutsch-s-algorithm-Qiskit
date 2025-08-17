@@ -1,20 +1,41 @@
-# Deutsch’s Algorithm with Qiskit
+# Quantum Algorithms with Qiskit
 
-This repository contains a simple implementation of **Deutsch’s algorithm**, one of the earliest examples of a quantum algorithm that demonstrates a separation between classical and quantum computation.
+This repository contains Jupyter Notebook implementations of foundational **quantum algorithms** using [Qiskit](https://qiskit.org/).  
+The goal is to provide clean, educational examples of how these algorithms are built and executed on simulators.
 
-## Overview
+---
 
-Deutsch’s algorithm solves the following problem:  
-Given a function f: {0,1} → {0,1}, determine whether f is **constant** (returns the same value for all inputs) or **balanced** (returns the same amount of zeros as ones for all input space).
+## 📚 Implemented Algorithms
 
-Classically, this requires **two function evaluations**, but using quantum superposition and interference, the quantum algorithm solves it with **just one oracle call**.
+### 1. **Deutsch’s Algorithm**
+- Problem: Given a function \( f: \{0,1\} \to \{0,1\} \), determine if \( f \) is **constant** or **balanced**.
+- Shows the power of quantum computing with only one query.
 
-## Contents
+### 2. **Deutsch–Jozsa Algorithm**
+- Generalization of Deutsch’s problem to \( f: \{0,1\}^n \to \{0,1\} \).
+- Distinguishes between constant and balanced functions in a **single query**, versus exponential queries classically.
 
-- `deutsch_algorithm.ipynb` – Jupyter notebook implementation with:
-  - Oracle definitions (`constant0`, `constant1`, `balanced`, `balanced_not`)
-  - Quantum circuit construction
-  - Simulation on `Aer` backend
-  - Visualization of results with `plot_histogram`
-  - Step-by-step explanation of the circuit
+### 3. **Bernstein–Vazirani Algorithm**
+- Finds a hidden bit string \( a \) in \( f(x) = a \cdot x \oplus b \).
+- Requires only **one query**, while classical algorithms need \( n \).
+
+### 4. **Simon’s Algorithm**
+- Finds the secret string \( s \) such that \( f(x) = f(x \oplus s) \).
+- Exponential speedup over classical approaches; precursor to Shor’s algorithm.
+
+### 5. **Grover’s Search Algorithm**
+- Searches an unsorted database of size \( N \) in \( O(\sqrt{N}) \) steps.
+- Demonstrates quantum amplitude amplification.
+
+### 6. **Quantum Phase Estimation (QPE)**
+- Estimates eigenvalues (phases) of unitary operators.
+- Foundation for quantum simulations and Shor’s factoring algorithm.
+
+### 7. **Shor’s Factoring Algorithm**
+- Factors large integers efficiently using QPE + modular exponentiation.
+- Breaks classical RSA cryptography.
+
+---
+
+## 📂 Repository Structure
 
