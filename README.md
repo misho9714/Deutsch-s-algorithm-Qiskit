@@ -18,7 +18,3 @@ Classically, this requires **two function evaluations**, but using quantum super
   - Visualization of results with `plot_histogram`
   - Step-by-step explanation of the circuit
 
-## Example Output
-
-For a **balanced oracle**, the algorithm always outputs `1`:
-
