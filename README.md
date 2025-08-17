@@ -5,7 +5,7 @@ This repository contains a simple implementation of **Deutsch’s algorithm**, o
 ## Overview
 
 Deutsch’s algorithm solves the following problem:  
-Given a function f: {0,1} → {0,1}, determine whether f is **constant** (returns the same value for all inputs) or **balanced** (returns different values for different inputs).
+Given a function f: {0,1} → {0,1}, determine whether f is **constant** (returns the same value for all inputs) or **balanced** (returns the same amount of zeros as ones for all input space).
 
 Classically, this requires **two function evaluations**, but using quantum superposition and interference, the quantum algorithm solves it with **just one oracle call**.
 
