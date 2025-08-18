@@ -34,3 +34,8 @@ The goal is to provide clean, educational examples of how these algorithms are b
 7. **Shor’s Factoring Algorithm**  
    Factors large integers efficiently using QPE and modular exponentiation.  
    Breaks classical RSA cryptography.  
+
+## 📖 References
+
+1. [arXiv 2507.11536](https://arxiv.org/abs/2507.11536)  
+   (Title: *[Understanding Quantum Information and Computation]*) 
