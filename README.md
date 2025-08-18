@@ -15,8 +15,8 @@ The goal is to provide clean, educational examples of how these algorithms are b
    Generalization of Deutsch’s problem to f: {0,1}ⁿ → {0,1}.  
    Distinguishes between constant and balanced functions in a single query, versus exponential queries classically.  
 
-3. **Bernstein–Vazirani Algorithm**  
-   Finds a hidden bit string a in f(x) = a · x ⊕ b.  
+3. **Bernstein–Vazirani Problem**  
+   Runs using Deutsch–Jozsa Algorithm. Finds a hidden bit string a in f(x) = a · x ⊕ b.  
    Requires only one query, while classical algorithms need n.  
 
 4. **Simon’s Algorithm**  
