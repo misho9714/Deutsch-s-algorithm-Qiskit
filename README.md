@@ -37,4 +37,5 @@ The goal is to provide clean, educational examples of how these algorithms are b
 
 ## 📖 References
 
-1. John Watrous, "Understanding Quantum Information and Computation"  [arXiv 2507.11536](https://arxiv.org/abs/2507.11536)
+1. John Watrous, *Understanding Quantum Information and Computation*  [arXiv 2507.11536](https://arxiv.org/abs/2507.11536)
+2. *Quantum Computer Science: An Introduction* — N. David Mermin, Cornell University Press
