@@ -19,7 +19,7 @@ The goal is to provide clean, educational examples of how these algorithms are b
    Runs using Deutsch–Jozsa Algorithm. Finds a hidden bit string a in f(x) = a · x ⊕ b.  
    Requires only one query, while classical algorithms need n.  
 
-4. **Simon’s Algorithm**  
+4. **Simon’s Algorithm (work in progress)**  
    Finds the secret string s such that f(x) = f(x ⊕ s).  
    Exponential speedup over classical approaches; precursor to Shor’s algorithm.  
 
