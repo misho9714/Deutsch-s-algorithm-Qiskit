@@ -39,5 +39,4 @@ The goal is to provide clean, educational examples of how these algorithms are b
 
 1. John Watrous, *Understanding Quantum Information and Computation*  [arXiv 2507.11536](https://arxiv.org/abs/2507.11536)
 2. *Quantum Computer Science: An Introduction* — N. David Mermin, Cornell University Press
-3. ChatGPT, OpenAI — used for interactive explanations, pseudocode design, and Qiskit implementation guidance.  
-   https://chat.openai.com/
+3. ChatGPT, OpenAI — used for interactive explanations, pseudocode design, and Qiskit implementation guidance.
