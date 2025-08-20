@@ -24,16 +24,16 @@ The goal is to provide clean, educational examples of how these algorithms are b
    Exponential speedup over classical approaches; precursor to Shor’s algorithm.  
 
 5. **Grover’s Search Algorithm**  
-   Searches an unsorted database of size N in O(√N) steps.  
+   Searches an unsorted database of size N in $O(\sqrt{N})$ steps.  
    Demonstrates quantum amplitude amplification.  
 
-6. **Quantum Phase Estimation (QPE)**  
-   Estimates eigenvalues (phases) of unitary operators.  
-   Foundation for quantum simulations and Shor’s factoring algorithm.  
+6. **Quantum Fourier Transform (QFT)**  
+   Performs the discrete Fourier transform on quantum amplitudes using only $O(n^2)$ gates.  
+   Core building block for phase estimation and period-finding algorithms.  
 
-7. **Shor’s Factoring Algorithm**  
-   Factors large integers efficiently using QPE and modular exponentiation.  
-   Breaks classical RSA cryptography.  
+7. **Quantum Phase Estimation (QPE)**  
+   Estimates eigenvalues (phases) of unitary operators.  
+   Foundation for quantum simulations and period-finding algorithms.  
 
 ## 📖 References
 
