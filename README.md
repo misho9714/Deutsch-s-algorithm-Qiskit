@@ -27,11 +27,11 @@ The goal is to provide clean, educational examples of how these algorithms are b
    Searches an unsorted database of size N in $O(\sqrt{N})$ steps.  
    Demonstrates quantum amplitude amplification.  
 
-6. **Quantum Fourier Transform (QFT)**  
+6. **Quantum Fourier Transform (QFT) [work in progress]**  
    Performs the discrete Fourier transform on quantum amplitudes using only $O(n^2)$ gates.  
    Core building block for phase estimation and period-finding algorithms.  
 
-7. **Quantum Phase Estimation (QPE)**  
+7. **Quantum Phase Estimation (QPE) [work in progress]**  
    Estimates eigenvalues (phases) of unitary operators.  
    Foundation for quantum simulations and period-finding algorithms.  
 
